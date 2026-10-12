@@ -31,8 +31,20 @@ Das Platine-Layout kombiniert ikonische Berner Wahrzeichen mit weihnachtlicher R
     *   Bär mit roter/weisser Weihnachtsmütze (Silkscreen/Solder Mask Opening).
     *   Goldene Akzente an Tatzen und Krone.
 3.  **Bundeshaus & Berner Altstadt Skyline:**
-    *   Silhouetten-Panorama der Berner Altstadt im unteren Drittel der Platine.
-    *   Kuppel des Bundeshauses mit vergoldeten Details.
+    *   **Panorama-Komposition:** Detaillierte Silhouette der geschützten UNESCO-Altstadt im unteren Drittel der Platine, eingebettet zwischen dem Nachthimmel und der Aare-Schlaufe.
+    *   **Ikonische Bauwerke & Wahrzeichen:**
+        *   **Berner Münster (Münsterturm):** Höchster Kirchturm der Schweiz als markanter vertikaler Akzent. Gotische Turmspitze und Maßwerk-Details in ENIG-Gold (F.Cu) und weißem Siebdruck (F.SilkS). Münster-Maßwerkfenster als transparente FR4-Lichtfenster für diffuse Hinterleuchtung.
+        *   **Bundeshaus:** Imposante Renaissance-Fassade mit zentraler Hauptkuppel. Kuppeldach und Zierrat vergoldet; Fensterreihen und Säulen durch feinen Siebdruck konturiert.
+        *   **Käfigturm & Nydeggkirche:** Flankierende historische Türme zur atmosphärischen Rahmung des Panoramas auf der westlichen und östlichen Flanke.
+        *   **Berner Lauben & Dächerlandschaft:** Charakteristische Sandstein-Fassaden mit den Berner Arkaden (Lauben), Giebeldächern und Dachgauben, gezeichnet als gestaffelte Kupfersilhouette mit verschneiten Dachkanten.
+    *   **Platinen-Multilayer-Effekte & Ebenentechnik:**
+        *   *ENIG Gold (F.Cu + F.Mask Opening):* Glänzende Vergoldung für Kuppeln, Turmspitzen, Firstlinien, Glocken und dekorative Fassadenelemente.
+        *   *Reinweißer Siebdruck (F.SilkS):* Schneeauflagen auf den Dächern, Christbaum-Girlanden an den Lauben sowie feine Architektur-Konturen und Fensterkreuze.
+        *   *Matt-Schwarzer Lötstopplack:* Stellt den dunklen Sandstein der Fassaden im Nachtkontrast dar.
+        *   *FR4 Backlight Windows (B.Cu / B.Mask Keepouts):* Beidseitige Aussparungen von Kupfer und Lötstopplack an Altstadtfenstern, Bundeshaus-Kuppel und Münster-Rosette. Ermöglicht ein warmes, geheiztes Glühen der Stuben und Fenster durch rückseitige LEDs (FR4-Transparenzeffekt).
+    *   **Lichtintegration & Wechselwirkung:**
+        *   Sanftes warmweißes Durchlicht von der Rückseite (Reverse-Mount LEDs) erzeugt den Eindruck von beleuchteten Weihnachtsstuben und erleuchteten Monumenten.
+        *   Visueller Übergang zur darunterliegenden Aare-Touchspur (goldene Fluss-Reflektion der Altstadtbeleuchtung).
 4.  **Die Aare-Schlaufe:**
     *   Geschwungene Kupferspur (ENIG-Gold) entlang des unteren Randes, welche die Aare darstellt.
     *   Kapazitiver Touch-Sensor integriert in die Aare-Spur.
